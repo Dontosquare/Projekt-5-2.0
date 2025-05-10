@@ -5,7 +5,7 @@ body{
 
 
 .off-screen-menu{
-    background-color: #304a2f;
+    background-color: #fffcf3;
     height: 100vh;
     width: 100%;
     max-width: 450px;
@@ -28,7 +28,7 @@ body{
 nav {
     padding: 1rem;
     display: flex;
-    background-color: #304a2f;
+    background-color: #fffcf3;
 }
 
 .ham-menu {
@@ -41,7 +41,7 @@ nav {
 .ham-menu span{
     height: 5px;
     width: 100%;
-    background-color: #b9ac95;
+    background-color: #081907;
     border-radius: 25px;
     position: absolute;
     top: 50%;
@@ -69,5 +69,5 @@ nav {
 
 .ham-menu.active span:nth-child(3) {
     top: 50%;
-    transform: translate(-50%, 50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
 }
