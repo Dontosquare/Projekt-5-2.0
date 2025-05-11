@@ -12,6 +12,8 @@ body{
     position: fixed;
     top: 0;
     right: -450px;
+    color: #081907;
+    font-family: "Lora";
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +21,22 @@ body{
     text-align: center;
     font-size: 3rem;
     transition: .3s ease;
+}
+
+.menu__items {
+    list-style: none;
+}
+
+#produkter{
+    margin-top: 30%;
+}
+
+#sek {
+    margin-top: 30%;
+}
+
+#kontakt{
+    margin-top: 30%;
 }
 
 .off-screen-menu.active{
