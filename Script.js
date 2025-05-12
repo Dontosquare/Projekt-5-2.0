@@ -37,7 +37,7 @@ document.getElementById('kontakt').onclick = function () {
     location.href = 'kontakt.html'
 }
 
-
+/*
 let age = prompt('indtast din alder')
 
 if(age < 16){
@@ -48,3 +48,5 @@ if(age < 16){
 else if (age >= 16){
     alert(Velkommen)
 }
+
+*/
