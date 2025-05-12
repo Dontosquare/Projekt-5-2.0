@@ -21,7 +21,6 @@ for(let [product_id, produkter] of params){
     console.log(product_id)
     console.log(produkter)
 }
-
 */
 
 document.getElementById('forside').onclick = function () {
@@ -48,5 +47,4 @@ if(age < 16){
 else if (age >= 16){
     alert(Velkommen)
 }
-
 */
