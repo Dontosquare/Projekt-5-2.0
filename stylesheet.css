@@ -3,6 +3,16 @@ body{
     overflow-x: hidden;
 }
 
+
+.header__logo {
+    font-family: "Lora";
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+
 /* Burger Menu start */
 .off-screen-menu{
     background-color: #fffcf3;
