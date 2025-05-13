@@ -23,7 +23,7 @@ for (let i = 0; i < menuItems.length; i++)  {
     menuContainer.innerHTML += '<li><a href="' + menuItems[i].link + '">' + menuItems[i].name;
 }
 // alder verification //
-/* 
+/*
 let age = prompt('indtast din alder')
 
 if(age < 16){
