@@ -11,7 +11,11 @@ body{
 }
 
 
-
+#basketicon{
+    display: flex;
+    padding-left: 30%;
+    font-size: 35px;
+}
 
 
 
