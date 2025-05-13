@@ -3,15 +3,6 @@ body{
     overflow-x: hidden;
 }
 
-footer {
-    background-color: #304A2F;
-    width: 100%;
-    position: absolute;
-    color: #FDF1DD;
-}
-
-/* Forside */
-
 .header__logo {
     font-family: "Lora";
     font-size: 30px;
@@ -20,6 +11,10 @@ footer {
     text-align: center;
     padding-left: 10%;
 }
+
+
+
+
 
 
 
@@ -109,7 +104,9 @@ nav {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 /* burger menu slut */
+/* Forside */
 
+/* Byg en kurv */
 .bek__kurv {
     width: 100%;
 }
@@ -130,8 +127,6 @@ nav {
     height: auto;
 }
 
-/* Byg en kurv */
-
 
 
 /* Produkter */
@@ -139,3 +134,11 @@ nav {
 
 
 /* Om produktet */
+
+/* Footer */
+footer {
+    background-color: #304A2F;
+    width: 100%;
+    position: absolute;
+    color: #FDF1DD;
+}
