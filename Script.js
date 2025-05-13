@@ -1,27 +1,26 @@
 
 // Burger menu javascript //
+
 const hamMenu = document.querySelector('.ham-menu');
+    const offScreenMenu = document.querySelector('.off-screen-menu');
 
-const offScreenMenu = document.querySelector('.off-screen-menu');
-
-hamMenu.addEventListener('click', () => {
-    hamMenu.classList.toggle('active');
-    offScreenMenu.classList.toggle('active');
-})
-
+    hamMenu.addEventListener('click', () => {
+        hamMenu.classList.toggle('active');
+        offScreenMenu.classList.toggle('active');
+    });
 
 
-document.getElementById('forside').onclick = function () {
-    location.href = 'index.html';
-}
-document.getElementById('produkter').onclick = function () {
-    location.href = 'produkter.html';
-}
-document.getElementById('sek').onclick = function () {
-    location.href = 'bygenkurv.html'
-}
-document.getElementById('kontakt').onclick = function () {
-    location.href = 'kontakt.html'
+const menuItems = [
+    { name: 'Forside', link: 'index.html'},
+    { name: 'Produkter', link: 'produkter.html'},
+    { name: 'Byg en kurv', link: 'bygenkurv.html'},
+    { name: 'Kontakt', link: 'kontakt.html'},
+];
+
+const menuContainer = document.getElementById('menu');
+
+for (let i = 0; i < menuItems.length; i++)  {
+    menuContainer.innerHTML += '<li><a href="' + menuItems[i].link + '">' + menuItems[i].name;
 }
 // alder verification //
 /* 
