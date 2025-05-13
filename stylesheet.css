@@ -34,20 +34,18 @@ body{
     transition: .3s ease;
 }
 
-.menu__items {
+#menu {
     list-style: none;
+    font-family: "Lora";
 }
 
-#produkter{
-    margin-top: 30%;
+li {
+    margin: 25% 0;
 }
 
-#sek {
-    margin-top: 30%;
-}
-
-#kontakt{
-    margin-top: 30%;
+a:link, a:visited, a:hover, a:active { 
+    color: #081907; 
+    text-decoration: none;
 }
 
 .off-screen-menu.active{
