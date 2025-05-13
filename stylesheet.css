@@ -3,6 +3,8 @@ body{
     overflow-x: hidden;
 }
 
+/* Forside */
+
 /* Burger Menu start */
 .off-screen-menu{
     background-color: #fffcf3;
@@ -91,3 +93,16 @@ nav {
 }
 /* burger menu slut */
 
+.bek__kurv {
+    width: 100%;
+}
+
+/* Byg en kurv */
+
+
+
+/* Produkter */
+
+
+
+/* Om produktet */
