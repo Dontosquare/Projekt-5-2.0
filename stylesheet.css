@@ -3,7 +3,7 @@ body{
     overflow-x: hidden;
 }
 
-
+/* Burger Menu start */
 .off-screen-menu{
     background-color: #fffcf3;
     height: 100vh;
@@ -89,3 +89,5 @@ nav {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
+/* burger menu slut */
+

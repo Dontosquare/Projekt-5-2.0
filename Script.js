@@ -10,18 +10,6 @@ hamMenu.addEventListener('click', () => {
 })
 
 
-/*
-let params = new URLSearchParams('product_id=produkter&quantity=42');
-
-for(let param of params){
-    console.log(param)
-}
-
-for(let [product_id, produkter] of params){
-    console.log(product_id)
-    console.log(produkter)
-}
-*/
 
 document.getElementById('forside').onclick = function () {
     location.href = 'index.html';
@@ -35,8 +23,8 @@ document.getElementById('sek').onclick = function () {
 document.getElementById('kontakt').onclick = function () {
     location.href = 'kontakt.html'
 }
-
-/*
+// alder verification //
+/* 
 let age = prompt('indtast din alder')
 
 if(age < 16){
