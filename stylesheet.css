@@ -1,6 +1,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
+    background-color: #FDF1DD;
 }
 
 .header__logo {
@@ -107,6 +108,10 @@ nav {
 }
 /* burger menu slut */
 /* Forside */
+
+.forside__billede {
+    width: 100%;
+}
 
 /* Byg en kurv */
 .bek__kurv {
