@@ -39,6 +39,7 @@ body{
     text-align: center;
     font-size: 3rem;
     transition: .3s ease;
+    z-index: 2;
 }
 
 #menu {
@@ -111,6 +112,13 @@ nav {
 
 .forside__billede {
     width: 100%;
+}
+
+.forside__sealleprodukter__overskrift {
+    font-family: "lora";
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
 }
 
 /* Byg en kurv */
