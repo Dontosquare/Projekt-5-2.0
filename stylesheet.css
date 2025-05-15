@@ -178,12 +178,15 @@ footer {
     font-weight: 100;
 }
 
-
-
 .footer__content__socials {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    align-items: center;
+    gap: 5%;
     font-size: 30px;
     margin-right: 10%;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 10%;
 }
