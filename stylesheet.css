@@ -127,7 +127,21 @@ nav {
     text-align: center;
 }
 
+.forside__værdier{
+    background-color: #b9ac95;
 
+}
+
+.forside__mødlisbeth{
+    background-color: #588252;
+    padding-bottom: 500px;
+}
+
+.forside__mødlisbeth__overskrift{
+    font-family: "lora";
+    text-align: center;
+    color: #FDF1DD;
+}
 
 /* Byg en kurv */
 .bek__kurv {
