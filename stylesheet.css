@@ -186,12 +186,51 @@ nav {
 /* Produkter */
 
 
+
+
+
 /* Om produktet */
 .omprodukter__billede {
     display: flex;
     justify-content: center;
 }
 
+.omproduktet__beskrivelse {
+    margin-left: 10%;
+}
+
+.omproduktet__producent {
+    text-decoration: underline;
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.omproduktet__produkt {
+    font-family: "roboto";
+    font-size: 40px;
+}
+
+.omproduktet__pris {
+    font-family: "roboto";
+    color: #304A2F;
+    font-size: 20px;
+}
+
+.omprodukt__knap {
+    background-color: #588252;
+    color: #FBF8EF;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: 1px solid #588252;
+}
+
+.omprodukt__knap:hover {
+    background-color: #FDF1DD;
+    color: #304A2F;
+    border: 1px solid #304A2F;
+}
 
 .omprodukter__rubrik {
     font-family: "roboto";
@@ -237,13 +276,13 @@ nav {
     color: #FBF8EF;
     margin-bottom: 8px;
     border-radius: 10px;
-    border: #588252;
+    border: 1px solid #588252;
 }
 
 .produkt__knap:hover {
     background-color: #FDF1DD;
     color: #304A2F;
-    border-color: #304A2F;
+    border: 1px solid #304A2F;
 }
 
 .produkter__producent {
@@ -260,6 +299,9 @@ nav {
 .produkt__pris {
     font-family: "roboto";
 }
+
+
+
 
 /* Footer */
 footer {
