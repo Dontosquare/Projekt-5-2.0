@@ -174,20 +174,31 @@ nav {
 
 
 /* Produkter */
-.produkt__card__1 {
+
+.produkter__varer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produkt__wrapper {
     width: 40%;
     border: 1px solid #304A2F;
-    text-align: center;
-    font-family: "roboto";
     border-radius: 10px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    overflow: hidden;
 }
 
-.produkt__card__1 img{
-    max-width: 100%;
-    height: auto;
+.produkt__billede img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.produkt__tekst {
+    text-align: center;
+    font-family: "roboto";
+    
 }
 
 .pris__TTK {
@@ -202,6 +213,15 @@ nav {
     margin-bottom: 8px;
     border-radius: 10px;
     border: none;
+}
+
+.produkter__producent {
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+.produkter__produkt {
+    font-size: 20px;
 }
 
 
