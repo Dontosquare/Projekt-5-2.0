@@ -121,6 +121,14 @@ nav {
     text-decoration: underline;
 }
 
+.forside__sealleprodukter__text {
+    font-family: "lora";
+    font-weight: 100;
+    text-align: center;
+}
+
+
+
 /* Byg en kurv */
 .bek__kurv {
     width: 100%;
