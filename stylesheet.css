@@ -1,7 +1,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
-    background-color: #FDF1DD;
+    background-color: #FFFCF3;
 }
 
 .header__logo {
@@ -126,6 +126,12 @@ nav {
     width: 100%;
 }
 
+.bek__katagorier__tekst {
+    font-family: "roboto";
+    margin-left: 11%;
+    margin-right: 3%;
+}
+
 .bek__valgmuligheder {
     display: flex;
     justify-content: center;
@@ -146,11 +152,38 @@ nav {
 
 
 /* Produkter */
+.produkt__card__1 {
+    width: 40%;
+    border: 1px solid #304A2F;
+    text-align: center;
+    font-family: "roboto";
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    overflow: hidden;
+}
 
+.produkt__card__1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.pris__TTK {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.produkt__knap {
+    background-color: #588252;
+    color: #FBF8EF;
+    font-family: "roboto";
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: none;
+}
 
 
 /* Om produktet */
-
 
 
 /* Footer */
