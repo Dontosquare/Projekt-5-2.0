@@ -39,7 +39,7 @@ body{
     text-align: center;
     font-size: 3rem;
     transition: .3s ease;
-    z-index: 2;
+
 }
 
 #menu {
@@ -242,7 +242,6 @@ nav {
 footer {
     background-color: #304A2F;
     width: 100%;
-    position: absolute;
     color: #FDF1DD;
 }
 
