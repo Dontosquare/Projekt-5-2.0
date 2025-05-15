@@ -175,10 +175,14 @@ nav {
 
 /* Produkter */
 
+
+/* Om produktet */
 .produkter__varer {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .produkt__wrapper {
@@ -225,9 +229,6 @@ nav {
 }
 
 
-/* Om produktet */
-
-
 /* Footer */
 footer {
     background-color: #304A2F;
@@ -237,6 +238,7 @@ footer {
 }
 
 .footer__content {
+    margin-top: 10%;
     margin-left: 11%;
     margin-bottom: 20px;
 }
