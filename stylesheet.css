@@ -116,7 +116,6 @@ nav {
 
 .forside__sealleprodukter__overskrift {
     font-family: "lora";
-    font-weight: 100;
     text-align: center;
     text-decoration: underline;
 }
@@ -129,7 +128,18 @@ nav {
 
 .forside__værdier{
     background-color: #b9ac95;
+    font-family: "lora";
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FBF8EF;
+}
 
+.forside__bestsellers{
+    text-align: center;
+    font-family: "lora";
+    padding-bottom: 200px;
 }
 
 .forside__mødlisbeth{
