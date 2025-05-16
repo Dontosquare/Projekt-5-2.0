@@ -144,8 +144,7 @@ nav {
 .forside__mødlisbeth{
     background-color: #588252;
     width: 100%;
-    padding-top: 30px;
-    font-family: "roboto";
+    padding-top: 2%;;
     color: #FBF8EF;
     text-align: center;
 }
@@ -154,10 +153,13 @@ nav {
     font-family: "lora";
     text-align: center;
     color: #FDF1DD;
+    font-size: 40px;
 }
 
 .forside__mødlisbeth__tekst{
     padding-bottom: 50px;
+    font-family: "roboto";
+    font-size: 30px;
 }
 
 /* Byg en kurv */
