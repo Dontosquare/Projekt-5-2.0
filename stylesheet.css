@@ -136,6 +136,12 @@ nav {
     color: #FBF8EF;
 }
 
+.forside__icons{
+    width: 100%;
+    max-width: 30%;
+    margin-top: 5%;
+}
+
 .forside__bestsellers{
     text-align: center;
     font-family: "lora";
@@ -147,6 +153,7 @@ nav {
     padding-top: 2%;;
     color: #FBF8EF;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .forside__mødlisbeth__overskrift{
