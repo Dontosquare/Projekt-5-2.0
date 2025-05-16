@@ -116,14 +116,14 @@ nav {
 
 .forside__sealleprodukter__overskrift {
     font-family: "lora";
-    text-align: center;
+    text-align: left;
+    padding-left: 10%;
     text-decoration: underline;
 }
 
 .forside__sealleprodukter__text {
-    font-family: "lora";
-    font-weight: 100;
-    text-align: center;
+    font-family: "roboto";
+    text-align: left;
     padding-left: 10%;
     padding-right: 10%;
 }
