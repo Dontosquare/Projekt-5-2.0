@@ -153,6 +153,8 @@ nav {
     color: #FDF1DD;
 }
 
+
+
 /* Byg en kurv */
 .bek__kurv {
     width: 100%;
@@ -188,7 +190,6 @@ nav {
 
 
 
-
 /* Om produktet */
 .omprodukter__billede {
     display: flex;
@@ -208,6 +209,11 @@ nav {
 .omproduktet__produkt {
     font-family: "roboto";
     font-size: 40px;
+}
+
+.omproduktet__information {
+    font-family: "roboto";
+    font-size: 18px;
 }
 
 .omproduktet__pris {
@@ -261,8 +267,9 @@ nav {
 }
 
 .produkt__tekst {
-    text-align: center;
+    text-align: left;
     font-family: "roboto";
+    padding: 5%;
     
 }
 
@@ -298,8 +305,8 @@ nav {
 
 .produkt__pris {
     font-family: "roboto";
+    color: #304A2F;
 }
-
 
 
 
@@ -311,9 +318,9 @@ footer {
 }
 
 .footer__content {
-    margin-top: 10%;
-    margin-left: 11%;
-    margin-bottom: 20px;
+    padding-top: 10%;
+    padding-left: 11%;
+    padding-bottom: 20px;
 }
 
 .footer__content__information {
