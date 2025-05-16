@@ -124,6 +124,8 @@ nav {
     font-family: "lora";
     font-weight: 100;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .forside__værdier{
@@ -136,10 +138,15 @@ nav {
     color: #FBF8EF;
 }
 
-.forside__icons{
+.forside__værdier__icons{
     width: 100%;
     max-width: 30%;
     margin-top: 5%;
+}
+
+.forside__værdier__tekst{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .forside__bestsellers{
@@ -167,6 +174,8 @@ nav {
     padding-bottom: 50px;
     font-family: "roboto";
     font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* Byg en kurv */
