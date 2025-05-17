@@ -342,6 +342,8 @@ nav {
     color: #304A2F;
 }
 
+/* kontakt */
+
 .kontakt__kontaktliwira{
     font-family: "lora";
     text-align: center;
@@ -395,4 +397,8 @@ footer {
     justify-content: center;
     padding-right: 10%;
     padding-left: 10%;
+}
+
+@media screen {
+    
 }
