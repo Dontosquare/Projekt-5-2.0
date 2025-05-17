@@ -14,7 +14,7 @@ body{
 
 #basketicon{
     display: flex;
-    padding-left: 30%;
+    padding-left: 15%;
     font-size: 35px;
 }
 
@@ -342,7 +342,19 @@ nav {
     color: #304A2F;
 }
 
+.kontakt__kontaktliwira{
+    font-family: "lora";
+    text-align: center;
+    color: #FDF1DD;
+    font-size: 40px;
+}
 
+.kontakt__venlighilsen {
+    font-family: "roboto";
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 /* Footer */
 footer {
@@ -359,6 +371,7 @@ footer {
 
 .footer__content__information {
     font-size: 20px;
+    padding-right: 10%;
 }
 
 .footer__content__logo {
@@ -372,10 +385,11 @@ footer {
     align-items: center;
     gap: 5%;
     font-size: 30px;
-    margin-right: 10%;
+    padding-right: 10%;
 }
 
 .footer__icons {
     display: flex;
     gap: 10%;
+    padding-right: 10%;
 }
