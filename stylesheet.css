@@ -391,15 +391,13 @@ footer {
     font-size: 30px;
     padding-right: 10%;
     padding-left: 15%;
+    margin-bottom: 10%;
 }
 
 .footer__icons {
     display: flex;
     gap: 40%;
     justify-content: center;
-    font-size: 150%;
-    margin-bottom: 10%;
-    margin-left: 10%;
 }
 
 @media screen {
