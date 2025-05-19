@@ -213,6 +213,33 @@ nav {
     height: auto;
 }
 
+.bek__valgmuligheder__side2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bek__valgmuligheder--knap{
+    font-family: "roboto";
+    font-size: 30px;
+    background-color: #588252;
+    color: #FBF8EF;
+    padding: 10px 20px;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid;
+    border-color: #588252;
+    border-radius: 10px;
+    filter: drop-shadow(30px, 10px, 4px, #000000);
+}
+
+.bek__valgmuligheder--knap:hover{
+    background-color: #FDF1DD;
+    color: #304A2F;
+    border: 1px solid;
+    border-color: #304A2F;
+}
 
 
 /* Produkter */
