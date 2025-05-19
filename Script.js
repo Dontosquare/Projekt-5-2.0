@@ -36,12 +36,5 @@ else if (age >= 16){
 }
 */
 
-/* har bare prøvet at lave noget loop
 
-const productItems = document.getElementsByClassName('produkter__varer')
-
-for (let i = 0; i < 5; i++){
-    productItems.innerHTML += '<div>' + productItems[i];
-}
-*/
 
