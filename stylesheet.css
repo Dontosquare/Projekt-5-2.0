@@ -241,6 +241,35 @@ nav {
     border-color: #304A2F;
 }
 
+.bek__bokse{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-bottom: 12%;
+}
+
+.bek__bokse--knap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "lora";
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 40%;
+    height: fixed;
+    background-color: #304A2F;
+    border: 1px solid;
+    border-color: #304A2F;
+    font-size: 100px;
+    color: #FDF1DD;
+    gap: 20%;
+}
 
 /* Produkter */
 .indenfor__billede {
