@@ -1,7 +1,9 @@
+
+
 /* Mads https://www.w3schools.com/jsref/met_element_getboundingclientrect.asp */
 addEventListener("scroll", onScroll)
 
-var falsk = false
+let falsk = false
 
 function onScroll() {
     var offsets
