@@ -178,11 +178,30 @@ nav {
 }
 
 .forside__mødlisbeth__tekst{
-    padding-bottom: 50px;
     font-family: "roboto";
     font-size: 30px;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.forside__mødlisbeth--knap{
+    font-family: "roboto";
+    font-size: 30px;
+    background-color: #dde6e5;
+    color: #304A2F;
+    padding: 10px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid;
+    border-color: #588252;
+    border-radius: 10px;
+    margin-bottom: 15%;
+}
+
+.forside__mødlisbeth--knap:hover{
+    color: #dde6e5;
+    background-color: #304A2F;
+    cursor: pointer;
 }
 
 /* Byg en kurv */

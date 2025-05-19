@@ -13,7 +13,7 @@ const hamMenu = document.querySelector('.ham-menu');
 const menuItems = [
     { name: 'Forside', link: 'index.html'},
     { name: 'Produkter', link: 'produkter.html'},
-    { name: 'Saml en kurv', link: 'bygenkurv.html'},
+    { name: 'Gavekurv', link: 'bygenkurv.html'},
     { name: 'Kontakt', link: 'kontakt.html'},
 ];
 
