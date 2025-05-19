@@ -39,7 +39,7 @@ body{
     text-align: center;
     font-size: 3rem;
     transition: .3s ease;
-
+    z-index: 1;
 }
 
 #menu {
@@ -84,28 +84,34 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     transition: .3s ease;
+    z-index: 1;
 }
 
 .ham-menu span:nth-child(1) {
     top: 25%;
+    z-index: 1;
 }
 
 .ham-menu span:nth-child(3) {
     top: 75%;
+    z-index: 1;
 }
 
 .ham-menu.active span:nth-child(1) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
+    z-index: 1;
 }
 
 .ham-menu.active span:nth-child(2) {
     opacity: 0;
+    z-index: 1;
 }
 
 .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1;
 }
 /* burger menu slut */
 /* Forside */
