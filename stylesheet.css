@@ -386,17 +386,16 @@ footer {
 .footer__content__socials {
     display: flex;
     align-items: center;
-    gap: 5%;
-    font-size: 30px;
-    padding-right: 10%;
-    padding-left: 15%;
+    font-size: 250%;
+    padding-left: 9%;
     margin-bottom: 10%;
 }
 
 .footer__icons {
     display: flex;
-    gap: 40%;
+    gap: 30%;
     justify-content: center;
+    padding-left: 10%;
 }
 
 @media screen {

@@ -45,6 +45,7 @@ for (let i = 0; i < 5; i++){
 }
 */
 
+
 /* Mads https://www.w3schools.com/jsref/met_element_getboundingclientrect.asp */
 addEventListener("scroll", onScroll)
 
