@@ -19,6 +19,13 @@ body{
     font-size: 35px;
 }
 
+.header__navbar--links {
+    display: none;
+}
+
+.header__basket{
+    padding-left: 3%;
+}
 
 
 
@@ -546,34 +553,34 @@ footer {
     .header__logo {
         display: flex;
         justify-content: start;
-        margin-left: 0;
-        padding-left: 0;
+        padding-left: 3%;
+        font-size: 350%;
+        
     }
 
     .header__navbar--links{
         display: flex;
-        flex-direction: row;
+        justify-content: center;
         text-decoration: none;
         list-style-type: none;
         font-family: "roboto";
         font-size: 150%;
-        gap: 20%;
-        margin-right: 30%;
+        gap: 13%;
+
     }
 
     .header__elements{
-        padding-right: 30%;
+        justify-content: space-between;
     }
 
     .header__basket {
         display: flex;
-        padding-right: 5%
+        padding-right: 3%
 
     }
 
     #basketicon {
         display: flex;
-        padding-left: 5%;
         font-size: 35px;
         
     }
@@ -582,5 +589,6 @@ footer {
         justify-content: space-between;
         margin-bottom: -4%;
         margin-top: -4%;
+        flex-wrap: nowrap;
     }
 }
