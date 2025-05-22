@@ -281,7 +281,6 @@ nav {
     margin-top: 3%;
     margin-bottom: 3%;
     width: 40%;
-    height: fixed;
     background-color: #304A2F;
     border: 1px solid;
     border-color: #304A2F;
@@ -518,6 +517,13 @@ footer {
         margin-left: 10%;
     }
 
+    .omprodukter__billede {
+        border: 1px solid #081907
+    }
+
+    .bek__katagorier__tekst {
+        font-size: 150%;
+    }
 }
 
 
