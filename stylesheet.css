@@ -19,6 +19,13 @@ body{
     font-size: 35px;
 }
 
+.header__navbar--links {
+    display: none;
+}
+
+.header__basket{
+    padding-left: 3%;
+}
 
 
 
@@ -539,4 +546,73 @@ footer {
         margin-top: 10%;
     }
 
+    .ham-menu {
+        display: none;
+    }
+
+    .header__logo {
+        display: flex;
+        justify-content: start;
+        padding-left: 3%;
+        font-size: 350%;
+        
+    }
+
+    .header__navbar--links{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: "roboto";
+        font-size: 150%;
+        gap: 13%;
+
+    }
+
+    .header__elements{
+        justify-content: space-between;
+    }
+
+    .header__basket {
+        display: flex;
+        padding-right: 3%;
+        padding-left: 5%;
+
+    }
+
+    #basketicon {
+        display: flex;
+        font-size: 35px;
+        
+    }
+
+    nav{
+        justify-content: space-between;
+        margin-bottom: -4%;
+        margin-top: -4%;
+        flex-wrap: nowrap;
+    }
+
+    .forside__billede{
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 500px;
+    }
+
+    .forside__sealleprodukter{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%
+    }
+
+    .forside__sealleprodukter__overskrift{
+        font-size: 300%;
+    }
+
+    .forside__sealleprodukter__text{
+        font-size: 150%;
+    }
 }
+
+@media (min-width: 1200px)
