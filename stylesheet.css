@@ -143,6 +143,8 @@ nav {
 }
 
 .forside__værdier{
+    display: flex;
+    flex-direction: column;
     background-color: #b9ac95;
     font-family: "lora";
     font-weight: 100;
@@ -153,7 +155,7 @@ nav {
 }
 
 .forside__værdier__icons{
-    max-width: 30%;
+    width: 30%;
     margin-top: 20%;
 }
 
@@ -497,7 +499,7 @@ footer {
     }
 
     .forside__værdier__icons {
-        max-width: 20%;
+        width: 20%;
         margin-top: 10%;
     }
     .produkter__producent {
@@ -542,7 +544,7 @@ footer {
     }
 
     .forside__værdier__icons {
-        max-width: 20%;
+        width: 20%;
         margin-top: 10%;
     }
 
@@ -613,6 +615,25 @@ footer {
     .forside__sealleprodukter__text{
         font-size: 150%;
     }
+
+    .forside__værdier{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .forside__kasse__værdier {
+        width: 33%;
+    }
+
+    .forside__værdier__icons {
+        margin-top: 30px;
+        object-fit: cover;
+        width: 100px;
+    }
 }
 
-@media (min-width: 1200px)
+@media (min-width: 1200px) {
+
+}
