@@ -13,6 +13,9 @@ function onScroll() {
     if (document.URL.includes("produkter.html")) {
         offsets = document.getElementById('indenfor').getBoundingClientRect();
     }
+    if (document.URL.includes("omproduktet.html")) {
+        offsets = document.getElementById('omproduktet__ttk__knap').getBoundingClientRect();
+    }
     if (window.scrollY >= offsets.bottom && falsk == false) {
         falsk = true
         produkterFremkald()

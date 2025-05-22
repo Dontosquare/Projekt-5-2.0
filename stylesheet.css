@@ -146,7 +146,6 @@ nav {
 }
 
 .forside__værdier__icons{
-    width: 100%;
     max-width: 30%;
     margin-top: 20%;
 }
@@ -482,4 +481,56 @@ footer {
 
 @media screen {
     
+}
+
+
+@media (min-width: 481px) {
+    
+    .forside__værdier__tekst {
+        padding-bottom: none;
+    }
+
+    .forside__værdier__icons {
+        max-width: 20%;
+        margin-top: 10%;
+    }
+    .produkter__producent {
+        font-size: 150%;
+        padding-left: 4%;
+    }
+
+    .produkter__produkt {
+        font-size: 150%;
+        padding-left: 4%;
+    }
+
+    .produkt__knap {
+        width: 50%;
+        font-size: 80%
+    }
+
+    .produkt__pris {
+        font-size: 100%;
+    }
+
+    .footer__icons {
+        gap: 50%;
+        margin-left: 10%;
+    }
+
+}
+
+
+
+@media (min-width: 800px) {
+    
+    .forside__værdier__tekst {
+        padding-bottom: none;
+    }
+
+    .forside__værdier__icons {
+        max-width: 20%;
+        margin-top: 10%;
+    }
+
 }
