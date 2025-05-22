@@ -376,6 +376,14 @@ nav {
     margin-bottom: 10%;
 }
 
+.produkter__varer__desktop {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10%;
+    display: none;
+}
+
 .produkt__wrapper {
     width: 40%;
     border: 1px solid #304A2F;
@@ -537,7 +545,7 @@ footer {
 
 
 
-@media (min-width: 800px) {
+@media (min-width: 861px) {
     
     .forside__værdier__tekst {
         padding-bottom: none;
@@ -631,6 +639,23 @@ footer {
         margin-top: 30px;
         object-fit: cover;
         width: 100px;
+    }
+    .produkter__varer {
+        display: none;
+    }
+
+    .produkter__varer__desktop {
+        display: block;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 10%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .produkter__producent {
+        font-size: 130%;
     }
 }
 
