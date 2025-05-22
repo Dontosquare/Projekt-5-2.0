@@ -575,7 +575,8 @@ footer {
 
     .header__basket {
         display: flex;
-        padding-right: 3%
+        padding-right: 3%;
+        padding-left: 5%;
 
     }
 
@@ -591,4 +592,27 @@ footer {
         margin-top: -4%;
         flex-wrap: nowrap;
     }
+
+    .forside__billede{
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 500px;
+    }
+
+    .forside__sealleprodukter{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%
+    }
+
+    .forside__sealleprodukter__overskrift{
+        font-size: 300%;
+    }
+
+    .forside__sealleprodukter__text{
+        font-size: 150%;
+    }
 }
+
+@media (min-width: 1200px)
