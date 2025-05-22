@@ -485,6 +485,7 @@ footer {
     font-size: 20px;
     font-family: "roboto";
     padding-right: 5%;
+    cursor: pointer;
 }
 
 .footer__content__logo {
@@ -593,7 +594,11 @@ footer {
         font-family: "roboto";
         font-size: 150%;
         gap: 13%;
+        cursor: pointer;
+    }
 
+    .header__navbar--links:hover {
+        text-decoration: underline;
     }
 
     .header__elements{
@@ -727,6 +732,7 @@ footer {
 @media (min-width: 1200px) {
     .header__navbar--links {
         gap: 30%;
+        cursor: pointer;
     }
 
     .forside__bestsellers {
