@@ -193,6 +193,10 @@ nav {
     padding-right: 10%;
 }
 
+.forside__mødlisbeth__billede {
+        width: 100%;
+    }
+
 .forside__mødlisbeth--knap{
     font-family: "roboto";
     font-size: 30px;
@@ -529,6 +533,10 @@ footer {
         font-size: 100%;
     }
 
+    .forside__mødlisbeth__billede {
+        width: 100%;
+    }
+
     .footer__icons {
         gap: 50%;
         margin-left: 10%;
@@ -678,8 +686,19 @@ footer {
     .forside__mødlisbeth--knap {
         margin-bottom: 5%;
     }
+
+    .footer__content {
+        display: flex;
+    }
+
+    .footer__icons {
+        padding-left: none;
+    }
+
 }
 
 @media (min-width: 1200px) {
-
+    .forside__mødlisbeth__billede {
+        width: 40%;
+    }
 }
