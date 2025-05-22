@@ -657,6 +657,27 @@ footer {
     .produkter__producent {
         font-size: 130%;
     }
+
+    .forside__mødlisbeth__indhold {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 5%;
+    }
+
+    .forside__mødlisbeth__billede {
+        width: 50%;
+    }
+
+    .forside__mødlisbeth__tekst {
+        text-align: right;
+        padding-right: 3%;
+        padding-top: 6%;
+        font-family: "roboto";
+    }
+
+    .forside__mødlisbeth--knap {
+        margin-bottom: 5%;
+    }
 }
 
 @media (min-width: 1200px) {
