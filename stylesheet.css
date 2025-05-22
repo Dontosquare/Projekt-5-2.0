@@ -539,4 +539,48 @@ footer {
         margin-top: 10%;
     }
 
+    .ham-menu {
+        display: none;
+    }
+
+    .header__logo {
+        display: flex;
+        justify-content: start;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .header__navbar--links{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: "roboto";
+        font-size: 150%;
+        gap: 20%;
+        margin-right: 30%;
+    }
+
+    .header__elements{
+        padding-right: 30%;
+    }
+
+    .header__basket {
+        display: flex;
+        padding-right: 5%
+
+    }
+
+    #basketicon {
+        display: flex;
+        padding-left: 5%;
+        font-size: 35px;
+        
+    }
+
+    nav{
+        justify-content: space-between;
+        margin-bottom: -4%;
+        margin-top: -4%;
+    }
 }
