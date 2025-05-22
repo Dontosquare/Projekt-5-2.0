@@ -191,6 +191,7 @@ nav {
     font-size: 30px;
     padding-left: 10%;
     padding-right: 10%;
+    color: #FDF1DD;
 }
 
 .forside__mødlisbeth__billede {
@@ -476,6 +477,14 @@ footer {
 .footer__content__information {
     font-size: 20px;
     padding-right: 10%;
+    font-family: "roboto";
+}
+
+.footer__content__produkter {
+    display: none;
+    font-size: 20px;
+    font-family: "roboto";
+    padding-right: 5%;
 }
 
 .footer__content__logo {
@@ -656,7 +665,7 @@ footer {
         display: block;
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 5%;
         margin-bottom: 10%;
         margin-left: 3%;
         margin-right: 3%;
@@ -664,6 +673,14 @@ footer {
 
     .produkter__producent {
         font-size: 130%;
+    }
+
+    .produkt__wrapper {
+        width: 18%;
+    }
+
+    .forside__mødlisbeth__overskrift {
+        font-size: 300%;
     }
 
     .forside__mødlisbeth__indhold {
@@ -686,19 +703,49 @@ footer {
     .forside__mødlisbeth--knap {
         margin-bottom: 5%;
     }
-
     .footer__content {
         display: flex;
+        justify-content: space-around;
+        margin-right: 5%;
+        padding-top: 3%;
+    }
+
+    .footer__content__produkter {
+        display: block;
+        text-decoration: underline;
     }
 
     .footer__icons {
-        padding-left: none;
+        display: flex;
+        flex-direction: column;
+        height: 15%;
+        text-align: center;
     }
 
 }
 
 @media (min-width: 1200px) {
+    .header__navbar--links {
+        gap: 30%;
+    }
+
+    .forside__bestsellers {
+        margin-top: 5%;
+        font-size: 300%;
+    }
+
     .forside__mødlisbeth__billede {
         width: 40%;
+        margin-right: 5%;
+    }
+
+    .forside__mødlisbeth--knap {
+        margin-top: 5%;
+        margin-left: 55%;
+    }
+
+    .forside__mødlisbeth__tekst {
+        margin-left: 20%;
+        margin-top: 10%;
     }
 }
