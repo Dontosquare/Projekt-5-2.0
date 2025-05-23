@@ -277,9 +277,7 @@ nav {
     margin-left: 10%;
     margin-right: 10%;
     border: 1px solid;
-    border-color: #588252;
     border-radius: 10px;
-    filter: drop-shadow(30px, 10px, 4px, #000000);
 }
 
 .bek__valgmuligheder--knap:hover{
@@ -312,10 +310,15 @@ nav {
     width: 40%;
     background-color: #304A2F;
     border: 1px solid;
-    border-color: #304A2F;
     font-size: 100px;
     color: #FDF1DD;
     gap: 20%;
+    cursor: pointer;
+}
+
+.bek__bokse--knap:hover {
+    color: #304a2f;
+    background-color: #FDF1DD;
 }
 
 /* Produkter */
@@ -531,10 +534,6 @@ footer {
 
 
 @media (min-width: 481px) {
-    
-    .forside__værdier__tekst {
-        padding-bottom: none;
-    }
 
     .forside__værdier__icons {
         width: 20%;
@@ -583,10 +582,6 @@ footer {
 
 
 @media (min-width: 861px) {
-    
-    .forside__værdier__tekst {
-        padding-bottom: none;
-    }
 
     .forside__værdier__icons {
         width: 20%;
