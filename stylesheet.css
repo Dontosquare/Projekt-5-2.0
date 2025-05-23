@@ -472,6 +472,7 @@ nav {
 .kontakt__venlighilsen {
     font-family: "roboto";
     font-size: 30px;
+    color: #FDF1DD;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -560,6 +561,9 @@ footer {
 
     .forside__mødlisbeth__billede {
         width: 100%;
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 750px;
     }
 
     .footer__icons {
@@ -692,7 +696,7 @@ footer {
     }
 
     .produkt__wrapper {
-        width: 18%;
+        width: 25%;
     }
 
     .forside__mødlisbeth__overskrift {
@@ -719,6 +723,32 @@ footer {
     .forside__mødlisbeth--knap {
         margin-bottom: 5%;
     }
+
+    .indenfor__billede{
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 500px;
+    }
+
+    .omproduktet__information {
+        margin-right: 10%;
+    }
+
+    .bek__kurv {
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 800px;
+    }
+
+    .kontakt__indhold {
+        display: flex;
+        margin-bottom: 10%;
+    }
+
+    .kontakt__venlighilsen {
+        padding-top: 9%;
+    }
+
     .footer__content {
         display: flex;
         justify-content: space-around;
@@ -770,5 +800,14 @@ footer {
         object-fit: cover;
         max-width: 100%;
         max-height: 500px;
+    }
+
+    .produkt__wrapper {
+        width: 15%;
+    }
+
+    .kontakt__indhold {
+        display: flex;
+        margin-bottom: 5%;
     }
 }
