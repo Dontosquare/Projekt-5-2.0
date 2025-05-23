@@ -27,6 +27,21 @@ body{
     padding-left: 3%;
 }
 
+#home:hover{
+    text-decoration: underline;
+}
+
+#products:hover{
+    text-decoration: underline;
+}
+
+#giftbasket:hover{
+    text-decoration: underline;
+}
+
+#contact:hover{
+    text-decoration: underline;
+}
 
 
 /* Burger Menu start */
@@ -595,10 +610,6 @@ footer {
         font-size: 150%;
         gap: 13%;
         cursor: pointer;
-    }
-
-    .header__navbar--links:hover {
-        text-decoration: underline;
     }
 
     .header__elements{
