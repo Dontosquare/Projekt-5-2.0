@@ -6,7 +6,7 @@ addEventListener("scroll", onScroll)
 let falsk = false
 
 function onScroll() {
-    var offsets
+    let offsets
     if (document.URL.includes("index.html") ) {
         offsets = document.getElementById('brun__boks').getBoundingClientRect();
     }
