@@ -1,5 +1,5 @@
 
-// Burger menu javascript //
+
 
 const hamMenu = document.querySelector('.ham-menu');
     const offScreenMenu = document.querySelector('.off-screen-menu');
@@ -22,19 +22,9 @@ const menuContainer = document.getElementById('menu');
 for (let i = 0; i < menuItems.length; i++)  {
     menuContainer.innerHTML += '<li><a href="' + menuItems[i].link + '">' + menuItems[i].name;
 }
-// alder verification //
-/*
-let age = prompt('indtast din alder')
 
-if(age < 16){
-    alert('beklager, du opfylder ikke alderskravene for denne hjemmeside')
-    location.href = 'https://www.google.dk/?hl=da'
-}
 
-else if (age >= 16){
-    alert(Velkommen)
-}
-*/
+
 
 
 
